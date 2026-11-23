@@ -1,0 +1,29 @@
+modifyingUnitClasses:
+  - id: hq
+    add:
+      verbs:
+        - choose_p1
+  - id: hq
+    add:
+      verbs:
+        - choose_p2
+  - id: hq
+    add:
+      verbs:
+        - choose_p3
+  - id: hq
+    add:
+      verbs:
+        - choose_p4
+  - id: hq
+    add:
+      verbs:
+        - print_role
+  - id: hq
+    add:
+      verbs:
+        - print_roles
+  - id: hq
+    add:
+      verbs:
+        - print_concepts

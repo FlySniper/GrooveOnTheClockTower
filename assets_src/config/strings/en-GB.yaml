@@ -1,0 +1,24 @@
+---
+
+# This is the string configuration file for English.
+en-GB: &flag-en
+    # Verbs
+    ui_unit_verbs_print_concepts: "View All Terms"
+    ui_unit_verbs_print_roles: "View All Roles"
+    ui_unit_verbs_print_role: "View Your Role"
+    ui_unit_verbs_choose_p1: "Choose P1"
+    ui_unit_verbs_choose_p2: "Choose P2"
+    ui_unit_verbs_choose_p3: "Choose P3"
+    ui_unit_verbs_choose_p4: "Choose P4"
+
+de-DE: *flag-en
+es-ES: *flag-en
+fr-FR: *flag-en
+it-IT: *flag-en
+ja-JP: *flag-en
+ko-KR: *flag-en
+pt-BR: *flag-en
+ru-RU: *flag-en
+zh-Hans: *flag-en
+zh-Hant: *flag-en
+...

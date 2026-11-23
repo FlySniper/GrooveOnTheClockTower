@@ -1,0 +1,49 @@
+verbs:
+  - id: print_concepts
+    icon: ui/icons/verbs/unit_action_icon_print_concepts.png
+    name: ui_unit_verbs_print_concepts
+    targetted: false
+    preExecute: false
+    scriptName: verbs/print_concepts
+
+  - id: print_roles
+    icon: ui/icons/verbs/unit_action_icon_print_roles.png
+    name: ui_unit_verbs_print_roles
+    targetted: false
+    preExecute: false
+    scriptName: verbs/print_roles
+
+  - id: print_role
+    icon: ui/icons/verbs/unit_action_icon_print_role.png
+    name: ui_unit_verbs_print_role
+    targetted: false
+    preExecute: false
+    scriptName: verbs/print_role
+
+  - id: choose_p1
+    icon: ui/icons/verbs/unit_action_icon_choose_p1.png
+    name: ui_unit_verbs_choose_p1
+    targetted: false
+    preExecute: false
+    scriptName: verbs/choose_p1
+
+  - id: choose_p2
+    icon: ui/icons/verbs/unit_action_icon_choose_p2.png
+    name: ui_unit_verbs_choose_p2
+    targetted: false
+    preExecute: false
+    scriptName: verbs/choose_p2
+
+  - id: choose_p3
+    icon: ui/icons/verbs/unit_action_icon_choose_p3.png
+    name: ui_unit_verbs_choose_p3
+    targetted: false
+    preExecute: false
+    scriptName: verbs/choose_p3
+
+  - id: choose_p4
+    icon: ui/icons/verbs/unit_action_icon_choose_p4.png
+    name: ui_unit_verbs_choose_p4
+    targetted: false
+    preExecute: false
+    scriptName: verbs/choose_p4

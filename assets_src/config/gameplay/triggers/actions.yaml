@@ -1,0 +1,14 @@
+---
+
+triggerActions:
+  - id: gotc_init
+  - id: gotc_repeat
+
+  - id: gotc_kill_commander
+    parameters:
+      - type: player_neutral_star
+
+  - id: gotc_kill_hq
+    parameters:
+      - type: player_neutral_star
+...
