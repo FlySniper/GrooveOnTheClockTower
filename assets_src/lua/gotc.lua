@@ -49,6 +49,17 @@ function GotC.addExpectedGoldToPlayer(playerId, gold)
     Wargroove.showConstantObjective()
 end
 
+function GotC.getExpectedGoldFromPlayer(playerId)
+    local stateUnit = GotC.findUnitState(playerId)
+    local currentValue = Wargroove.getUnitState(stateUnit, "expected_gold")
+    if currentValue == nil then
+        currentValue = 0
+    else
+        currentValue = tonumber(currentValue)
+    end
+    return currentValue
+end
+
 function GotC.marksmanChoose(playerId, targetPlayer, seed)
     local str = Utils.toStringNil(seed) .. " Marksman " .. tostring(Wargroove.getTurnNumber()) .. tostring(Wargroove.getCurrentPlayerId()) .. "1"
     if GotC.getConfused(playerId) then
